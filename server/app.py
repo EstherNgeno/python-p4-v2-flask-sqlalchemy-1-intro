@@ -5,7 +5,7 @@ from flask_migrate import Migrate
 
 from models import db
 
-# create a Flask application instance
+# create a Flask application instance/object
 app = Flask(__name__)
 
 # configure the database connection to the local file app.db
